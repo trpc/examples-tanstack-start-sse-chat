@@ -2,9 +2,9 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from '@shared/ui/components/avatar';
-import { buttonVariants } from '@shared/ui/components/button';
-import { Skeleton } from '@shared/ui/components/skeleton';
+} from '../../shared-ui/components/avatar';
+import { buttonVariants } from '../../shared-ui/components/button';
+import { Skeleton } from '../../shared-ui/components/skeleton';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, Link, notFound } from '@tanstack/react-router';
 import type { unstable_inferQueryHandle } from '@trpc/tanstack-react-query';
