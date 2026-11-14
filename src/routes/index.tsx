@@ -1,5 +1,5 @@
-import { Badge } from '@shared/ui/components/badge';
-import { buttonVariants } from '@shared/ui/components/button';
+import { Badge } from '../shared-ui/components/badge';
+import { buttonVariants } from '../shared-ui/components/button';
 import {
   Card,
   CardAction,
@@ -7,13 +7,13 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
+} from '../shared-ui/components/card';
 import {
   Empty,
   EmptyDescription,
   EmptyHeader,
   EmptyTitle,
-} from '@shared/ui/components/empty';
+} from '../shared-ui/components/empty';
 import {
   Item,
   ItemActions,
@@ -21,8 +21,8 @@ import {
   ItemGroup,
   ItemMedia,
   ItemTitle,
-} from '@shared/ui/components/item';
-import { Skeleton } from '@shared/ui/components/skeleton';
+} from '../shared-ui/components/item';
+import { Skeleton } from '../shared-ui/components/skeleton';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, Link } from '@tanstack/react-router';
 import {
