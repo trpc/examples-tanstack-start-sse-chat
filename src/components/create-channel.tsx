@@ -2,8 +2,8 @@ import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from '@shared/ui/components/alert';
-import { Button } from '@shared/ui/components/button';
+} from '../shared-ui/components/alert';
+import { Button } from '../shared-ui/components/button';
 import {
   Dialog,
   DialogClose,
@@ -13,10 +13,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@shared/ui/components/dialog';
-import { Field, FieldLabel } from '@shared/ui/components/field';
-import { Input } from '@shared/ui/components/input';
-import { Spinner } from '@shared/ui/components/spinner';
+} from '../shared-ui/components/dialog';
+import { Field, FieldLabel } from '../shared-ui/components/field';
+import { Input } from '../shared-ui/components/input';
+import { Spinner } from '../shared-ui/components/spinner';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 import { CircleAlertIcon, PlusIcon } from 'lucide-react';

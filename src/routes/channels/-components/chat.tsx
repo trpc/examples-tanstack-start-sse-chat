@@ -2,23 +2,23 @@ import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from '@shared/ui/components/alert';
+} from '../../../shared-ui/components/alert';
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from '@shared/ui/components/avatar';
-import { Badge } from '@shared/ui/components/badge';
-import { Bubble, BubbleContent } from '@shared/ui/components/bubble';
-import { Button, buttonVariants } from '@shared/ui/components/button';
+} from '../../../shared-ui/components/avatar';
+import { Badge } from '../../../shared-ui/components/badge';
+import { Bubble, BubbleContent } from '../../../shared-ui/components/bubble';
+import { Button, buttonVariants } from '../../../shared-ui/components/button';
 import {
   Message,
   MessageAvatar,
   MessageContent,
   MessageFooter,
-} from '@shared/ui/components/message';
-import { Spinner } from '@shared/ui/components/spinner';
-import { Textarea } from '@shared/ui/components/textarea';
+} from '../../../shared-ui/components/message';
+import { Spinner } from '../../../shared-ui/components/spinner';
+import { Textarea } from '../../../shared-ui/components/textarea';
 import { useMutation } from '@tanstack/react-query';
 import { useSubscription } from '@trpc/tanstack-react-query';
 import type { inferInfiniteQueryHandle } from '@trpc/tanstack-react-query/unstable-handles';

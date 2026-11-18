@@ -1,4 +1,4 @@
-import { buttonVariants } from '@shared/ui/components/button';
+import { buttonVariants } from '../shared-ui/components/button';
 import {
   Empty,
   EmptyContent,
@@ -6,7 +6,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from '@shared/ui/components/empty';
+} from '../shared-ui/components/empty';
 /// <reference types="vite/client" />
 import type { QueryClient } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
